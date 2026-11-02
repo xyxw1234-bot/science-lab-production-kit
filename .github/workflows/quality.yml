@@ -1,0 +1,26 @@
+name: Toolkit quality
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Python regression
+        run: python3 -m unittest discover -s tests -v
+      - name: Reference model and mentor lifecycle
+        run: node --test examples/energy-play/*.test.mjs
+      - name: Repository closure and hygiene
+        run: python3 scripts/audit_repository.py

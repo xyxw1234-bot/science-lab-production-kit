@@ -1,0 +1,128 @@
+[
+  {
+    "viewport": "desktop",
+    "dimensions": [
+      1440,
+      1000
+    ],
+    "nativeTouch": false,
+    "generatorMoves": true,
+    "sameSceneVoiceNotRestarted": true,
+    "releaseClearsInput": true,
+    "voiceMediaTimeAdvances": true,
+    "layout": {
+      "width": 1440,
+      "docWidth": 1440,
+      "subtitleBottom": 720,
+      "footerTop": 895,
+      "minTouch": 44
+    },
+    "screenshot": "desktop.png",
+    "screenshotSha256": "d780457b81c68f934383780d0a3bd2787e57ad8b4536b37721eb91c3ea909d91"
+  },
+  {
+    "viewport": "pad-landscape",
+    "dimensions": [
+      1024,
+      768
+    ],
+    "nativeTouch": true,
+    "generatorMoves": true,
+    "sameSceneVoiceNotRestarted": true,
+    "releaseClearsInput": true,
+    "voiceMediaTimeAdvances": true,
+    "layout": {
+      "width": 1024,
+      "docWidth": 1024,
+      "subtitleBottom": 585.4375,
+      "footerTop": 663,
+      "minTouch": 44
+    },
+    "screenshot": "pad-landscape.png",
+    "screenshotSha256": "dd2f9fa71b1bd42c40dc32fa82553dc892626bec69cbfe41154afce194bedd38"
+  },
+  {
+    "viewport": "pad-portrait",
+    "dimensions": [
+      820,
+      1180
+    ],
+    "nativeTouch": true,
+    "generatorMoves": true,
+    "sameSceneVoiceNotRestarted": true,
+    "releaseClearsInput": true,
+    "voiceMediaTimeAdvances": true,
+    "layout": {
+      "width": 820,
+      "docWidth": 820,
+      "subtitleBottom": 720,
+      "footerTop": 1075,
+      "minTouch": 44
+    },
+    "screenshot": "pad-portrait.png",
+    "screenshotSha256": "1975db90b6effa2d909b90eeebb470d8f02a1f214a40e563afc7ab6ef35eff74"
+  },
+  {
+    "viewport": "phone",
+    "dimensions": [
+      390,
+      844
+    ],
+    "nativeTouch": true,
+    "generatorMoves": true,
+    "sameSceneVoiceNotRestarted": true,
+    "releaseClearsInput": true,
+    "voiceMediaTimeAdvances": true,
+    "layout": {
+      "width": 390,
+      "docWidth": 390,
+      "subtitleBottom": 507.09375,
+      "footerTop": 739,
+      "minTouch": 44
+    },
+    "screenshot": "phone.png",
+    "screenshotSha256": "8cb6ca005be20f80018c2ddafb11c90d0543f084bc2f6f2d55b48049a18ac129"
+  },
+  {
+    "viewport": "phone-short",
+    "dimensions": [
+      360,
+      640
+    ],
+    "nativeTouch": true,
+    "generatorMoves": true,
+    "sameSceneVoiceNotRestarted": true,
+    "releaseClearsInput": true,
+    "voiceMediaTimeAdvances": true,
+    "layout": {
+      "width": 360,
+      "docWidth": 360,
+      "subtitleBottom": 425.5,
+      "footerTop": 535,
+      "minTouch": 44
+    },
+    "screenshot": "phone-short.png",
+    "screenshotSha256": "01c60341dca6f967138cf7fa50d2aad3ded07a57330e60c67105037240e11981"
+  },
+  {
+    "viewport": "phone-landscape",
+    "dimensions": [
+      844,
+      390
+    ],
+    "nativeTouch": true,
+    "generatorMoves": true,
+    "sameSceneVoiceNotRestarted": true,
+    "releaseClearsInput": true,
+    "voiceMediaTimeAdvances": true,
+    "layout": {
+      "width": 844,
+      "docWidth": 844,
+      "subtitleBottom": 214.15625,
+      "footerTop": 236.15625,
+      "minTouch": 44
+    },
+    "screenshot": "phone-landscape.png",
+    "screenshotSha256": "dd5b672e676dc8aef154bdd0256217715879a9049f449484b1b4c2a0aa1de39d"
+  }
+]

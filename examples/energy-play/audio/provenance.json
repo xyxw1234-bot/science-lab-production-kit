@@ -1,0 +1,26 @@
+[
+  {
+    "scene": "lights",
+    "file": "lights.mp3",
+    "sha256": "d47be8e0a9ac479febb5c6915b3ef67c87ac44262b3ad6be3c4de5ce5b75a828",
+    "textSha256": "9e738d40b82b89a605bacca8245146662b91780e348457f3801e0ff3be6fdf63",
+    "durationSeconds": 12.48,
+    "method": "pre-synthesized reviewed text",
+    "provider": "Edge TTS 7.3.1",
+    "voice": "zh-CN-YunxiNeural",
+    "liveAI": false,
+    "voiceRights": "service terms; reference use, not blanket commercial voice licence"
+  },
+  {
+    "scene": "fan",
+    "file": "fan.mp3",
+    "sha256": "d628bf7fdf06d9c3f0faca8275757fbb975f8e022ff5565e8d3c23ef3d329d2f",
+    "textSha256": "17d50c4a975a7ce5660ad89f8f7781523ad633d6d28c30e82519a83436d7bb79",
+    "durationSeconds": 11.448,
+    "method": "pre-synthesized reviewed text",
+    "provider": "Edge TTS 7.3.1",
+    "voice": "zh-CN-YunxiNeural",
+    "liveAI": false,
+    "voiceRights": "service terms; reference use, not blanket commercial voice licence"
+  }
+]

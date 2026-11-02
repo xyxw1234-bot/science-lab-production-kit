@@ -1,0 +1,66 @@
+{
+  "scene_id": "scene-1",
+  "viewport": "1440x1000",
+  "origin_url": "pending",
+  "source_revision": "pending",
+  "screenshot": {
+    "path": "pending",
+    "sha256": "pending"
+  },
+  "runtime": {
+    "status": "pending",
+    "observation": "pending",
+    "record": {
+      "path": "pending",
+      "sha256": "pending"
+    }
+  },
+  "mouse": {
+    "status": "pending",
+    "observation": "pending",
+    "record": {
+      "path": "pending",
+      "sha256": "pending"
+    }
+  },
+  "touch": {
+    "status": "pending",
+    "observation": "pending",
+    "record": {
+      "path": "pending",
+      "sha256": "pending"
+    }
+  },
+  "sound": {
+    "status": "pending",
+    "observation": "pending",
+    "record": {
+      "path": "pending",
+      "sha256": "pending"
+    }
+  },
+  "pause_motion": {
+    "status": "pending",
+    "observation": "pending",
+    "record": {
+      "path": "pending",
+      "sha256": "pending"
+    }
+  },
+  "narration": {
+    "status": "pending",
+    "observation": "pending",
+    "record": {
+      "path": "pending",
+      "sha256": "pending"
+    }
+  },
+  "layout": {
+    "status": "pending",
+    "observation": "pending",
+    "record": {
+      "path": "pending",
+      "sha256": "pending"
+    }
+  }
+}

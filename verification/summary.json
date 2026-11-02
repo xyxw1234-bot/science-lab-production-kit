@@ -1,0 +1,76 @@
+{
+  "toolkitVersion": "1.0.0",
+  "pythonRegression": {
+    "passed": 39,
+    "failed": 0
+  },
+  "nodeRegression": {
+    "passed": 13,
+    "failed": 0
+  },
+  "referenceBrowser": {
+    "viewports": 6,
+    "nativeMouseAndTouch": true,
+    "actualMediaTimeAndPause": true,
+    "startupFailureRecovery": true,
+    "notHumanFullListening": true
+  },
+  "freshContextHandoff": {
+    "task": "weather-water design",
+    "rulesExtracted": 14,
+    "actualInitAndValidation": true,
+    "checks": {
+      "design": {
+        "exitCode": 0,
+        "structureComplete": true,
+        "reviewStatus": "pending",
+        "releasePassed": false,
+        "unresolvedContractFields": 101
+      },
+      "release": {
+        "exitCode": 1,
+        "structureComplete": true,
+        "reviewStatus": "pending",
+        "releasePassed": false,
+        "unresolvedContractFields": 101
+      }
+    },
+    "boundary": "fresh agent context with host baseline instructions; not authenticated Codex or Claude Code model sessions"
+  },
+  "nativeAgentCliSessions": {
+    "codex": "not-run; CLI unavailable",
+    "claude": "not-run; CLI unavailable"
+  },
+  "childTrial": "not-run",
+  "physicalDevices": "not-run",
+  "liveAIService": "not-included; prerecorded reference is explicitly labelled",
+  "voiceRights": "reference outputs, provider terms apply; no blanket commercial voice authorization certified",
+  "audioSignal": [
+    {
+      "file": "examples/energy-play/audio/lights.mp3",
+      "meanDb": -25.2,
+      "nonSilent": true
+    },
+    {
+      "file": "examples/energy-play/audio/fan.mp3",
+      "meanDb": -24.2,
+      "nonSilent": true
+    }
+  ],
+  "sourceFiles": {
+    "examples/energy-play/app.mjs": "ee3fb1cebade1c81f1ecb50ea1ea96830b590ff3518d95e77ca1051e3157e9e6",
+    "examples/energy-play/model.test.mjs": "7e33242bdc4c5611f519f1895ed08ad1d13260bc95c0541cd668066bebdd58db",
+    "examples/energy-play/style.css": "f0eb06f1798f0d1e45548224a6f8e355af00d377f0b54f62ee1f1b33ac9695a5",
+    "examples/energy-play/mentor.mjs": "d57055df3ebe6bc156d96da1ba10d72a156f296eb626c4d575e754ed5fb9a11d",
+    "examples/energy-play/index.html": "eb898d24e3e461972fa6cb95c5826d8d2f30b13246b227b821fceaa13dc0baa8",
+    "examples/energy-play/model.mjs": "cff746514fa05dd6f3e58a539c21cde59d0b843d640d5881985e62b364d4508c",
+    "examples/energy-play/mentor.test.mjs": "ba700d1724b6993ef7abd1ba5c265e283d61b69c19e6bd45e645d9b4320382d2",
+    "examples/energy-play/bootstrap.test.mjs": "8d6a749069571be95b06a2d0e6be87dea30eaf8063a3ceae00f27d644d73ef57",
+    "examples/energy-play/audio/lights.mp3": "d47be8e0a9ac479febb5c6915b3ef67c87ac44262b3ad6be3c4de5ce5b75a828",
+    "examples/energy-play/audio/scripts.json": "eb8fff1f173b225cdacc6d22b012c6bd63ac9b3f512defdfd69eba7a4ea79ec4",
+    "examples/energy-play/audio/fan.mp3": "d628bf7fdf06d9c3f0faca8275757fbb975f8e022ff5565e8d3c23ef3d329d2f",
+    "examples/energy-play/audio/provenance.json": "4bc94acbc9cf027094dad32144e5fc2ac627062cac096bbdb468d01a4d38efe5",
+    "scripts/kit.py": "9865bc50b09857898feb560d6985f4fbc692a07af47935df26b9507401266b27",
+    "scripts/install_skill.py": "bb0a187d63be649f000e5ff05f93f3c06ce3abd4f460963a1b98a4f4dfb03bc6"
+  }
+}

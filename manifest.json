@@ -1,0 +1,1 @@
+{"name":"science-lab-production","version":"1.0.0","entry":"SKILL.md","audience":"小学1—4年级","agents":["codex","claude","file-reading-agent"],"license":"SEE LICENSE","runtime_dependencies":{"python":">=3.10","node_example_tests":">=18"}}

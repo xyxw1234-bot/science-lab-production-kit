@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0.0",
+  "status": "pending",
+  "existing_routes": [],
+  "owned_paths": [],
+  "protected_routes": [],
+  "source_inventory": [],
+  "current_contract_gaps": [],
+  "before_files": [],
+  "rollback": {"target": "pending", "procedure": "pending", "verified": false},
+  "review": {"status": "pending", "reviewer": "pending", "record": "pending"},
+  "constraint": "Iterate mode requires real before/after hashes and unchanged protected routes; do not infer safety from an additive intention."
+}

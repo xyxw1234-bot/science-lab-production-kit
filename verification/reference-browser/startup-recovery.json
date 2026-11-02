@@ -1,0 +1,10 @@
+{
+  "blockedTextEntryHasRetry": {
+    "button": "重试打开",
+    "status": "暂时没能打开。网络恢复后，点这里重试。",
+    "handler": true
+  },
+  "recoveredAudioAdvances": true,
+  "recoveredScene": "lights",
+  "actualAudioTime": 0.724854
+}

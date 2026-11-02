@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "name": "pending",
+  "slug": "pending",
+  "mode": "new",
+  "audience": {
+    "min_grade": 1,
+    "max_grade": 4
+  },
+  "subjects": [
+    "pending"
+  ],
+  "design_review": {
+    "status": "pending",
+    "reviewer": "pending",
+    "record": "pending"
+  },
+  "ui": {
+    "primary_touch_target_px": 44,
+    "few_large_buttons": true,
+    "centered_top_navigation": true,
+    "compact_vertical_layout": true,
+    "portrait_recomposition": true
+  },
+  "scenes": [],
+  "deployment": {
+    "url": "pending",
+    "immutable_release": "pending",
+    "status": "pending"
+  },
+  "product_intent": "pending",
+  "exploration_map": [
+    {
+      "area": "pending",
+      "question": "pending",
+      "scene_ids": [
+        "scene-1"
+      ],
+      "depth": "pending",
+      "boundary": "pending"
+    }
+  ],
+  "preservation": {
+    "approved_features": [],
+    "production_targets": [],
+    "change_scope": "pending",
+    "non_goals": [
+      "pending"
+    ]
+  },
+  "representative_scene": {
+    "id": "scene-1",
+    "why_representative": "pending",
+    "status": "pending",
+    "reviewer": "pending",
+    "record": "pending"
+  }
+}

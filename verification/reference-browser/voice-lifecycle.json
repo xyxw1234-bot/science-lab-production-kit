@@ -1,0 +1,11 @@
+{
+  "pauseTimeStable": true,
+  "resumeTimeAdvances": true,
+  "sceneSwitchOwnsVoice": true,
+  "blockedAudioShowsError": true,
+  "realReplayRecovers": true,
+  "mutedSceneDoesNotAutoplay": true,
+  "voiceTimeBeforePause": 0.44043,
+  "afterRecovery": 0.641256,
+  "boundary": "real browser media-time/control checks, not complete human listening or real-time AI"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "scene-1",
+  "title": "pending",
+  "learning_goal": "pending",
+  "student_action": "pending",
+  "causal_chain": "pending",
+  "observable_feedback": "pending",
+  "replay": {"reset": "pending", "cancel": "pending", "repeat_changes_state": "pending"},
+  "dynamic_behavior": true,
+  "static_reference_reason": "not-applicable",
+  "sources": [{"identity": "pending", "url": "pending", "license": "pending", "type": "pending", "status": "pending"}],
+  "model_boundaries": {"representation": "pending", "units": "pending", "limits": "pending", "not_claimed": "pending"},
+  "science_review": {"status": "pending", "reviewer": "pending", "record": "pending"},
+  "safety_review": {"status": "pending", "reviewer": "pending", "record": "pending"},
+  "narration": {"status": "pending", "script": "pending", "implementation": "pending", "implementation_detail": "pending", "fallback": "none", "automatic_on_scene": true, "complete_sentences": true, "same_page_no_repeat": true, "stop_previous_on_switch": true, "effects_independent": true},
+  "video": {"status": "none", "placement": "none", "student_button": false, "replaces_core_interaction": false}
+}

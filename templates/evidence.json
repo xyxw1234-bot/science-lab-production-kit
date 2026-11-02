@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.0.0",
+  "status": "pending",
+  "browser": {"kind": "pending", "engine": "pending", "version": "pending", "session_record": "pending"},
+  "origin": {"url": "pending", "source_revision": "pending", "source_files": []},
+  "files": [],
+  "captures": [],
+  "deployment": {"status": "pending", "http_checks": [], "hash_checks": [], "old_site_unchanged": {"status": "not-applicable", "before": [], "after": [], "record": "none"}},
+  "notes": "No browser execution or scientific approval has occurred. Empty collections must be populated with real observations, not invented success."
+}

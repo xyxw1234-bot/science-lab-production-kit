@@ -1,0 +1,7 @@
+import test from'node:test';import assert from'node:assert/strict';import{initial,electrical,step}from'./model.mjs';
+const advance=(s,n=1200)=>{for(let i=0;i<n;i++)s=step(s,.01);return s;};
+test('no input does not invent energy or movement',()=>{let s=advance(initial());assert.equal(s.omega,0);assert.equal(electrical(s).current,0);assert.equal(s.fanSpeed,0)});
+test('crank drives lamp and fan from same state, stopping decays',()=>{let s=initial();s.effort=.55;s.fan=true;s=advance(s);let e=electrical(s);assert(s.omega>0&&s.fanSpeed>0&&e.lampPower>0&&e.fanPower>0);s.effort=0;let stopped=advance(s);assert(stopped.omega<s.omega*.1);assert(stopped.fanSpeed<s.fanSpeed*.1)});
+test('extra load has electromagnetic counter torque and lowers terminal voltage at fixed effort',()=>{let a=initial();a.effort=.55;let b={...a,fan:true};a=advance(a);b=advance(b);assert(b.omega<a.omega);assert(electrical(b).voltage<electrical(a).voltage);assert(electrical(b).electromagneticTorque>0)});
+test('electromagnetic mechanical power equals load power plus internal loss in declared approximation',()=>{for(let omega of[0,.4,2,7])for(let lamp of[false,true])for(let fan of[false,true]){let s={...initial(),omega,lamp,fan},e=electrical(s);assert(Math.abs(e.electromagneticTorque*omega-e.lampPower-e.fanPower-e.internalLoss)<1e-10)}});
+test('partitions agree and invalid time rejected',()=>{let a={...initial(),effort:.55},b={...a};a=step(a,.05);for(let i=0;i<10;i++)b=step(b,.005);assert(Math.abs(a.omega-b.omega)<1e-12);for(let dt of[-1,NaN,Infinity,2])assert.throws(()=>step(a,dt));});

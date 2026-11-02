@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0.0",
+  "scene_id": "pending",
+  "status": "pending",
+  "purpose": "pending",
+  "placement": "pending",
+  "student_button": false,
+  "replaces_core_interaction": false,
+  "script": "pending",
+  "source": {"identity": "pending", "url": "pending", "license": "pending", "type": "pending", "status": "pending"},
+  "output": {"path": "pending", "sha256": "pending"},
+  "review": {"status": "pending", "reviewer": "pending", "record": "pending"},
+  "constraint": "Optional supplement only. Pending or absent video must not leave a dead student-facing button."
+}
